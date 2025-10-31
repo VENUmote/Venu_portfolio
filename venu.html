@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mote Venu | Software Developer Portfolio</title>
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #f9fafb; color: #333; line-height: 1.6;
+    }
+    header {
+      background: #0078d7; color: white; text-align: center; padding: 3rem 1rem;
+    }
+    header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+    header p { font-size: 1.1rem; }
+    nav {
+      background: #0056a3; text-align: center; padding: 0.8rem 0;
+    }
+    nav a {
+      color: white; text-decoration: none; margin: 0 15px; font-weight: 500;
+    }
+    nav a:hover { text-decoration: underline; }
+
+    section { padding: 3rem 10%; }
+    h2 {
+      color: #0056a3;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #0056a3;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    /* About Section */
+    .about img {
+      width: 150px; height: 150px; border-radius: 50%;
+      display: block; margin: 0 auto 1rem;
+    }
+    .about p { text-align: center; max-width: 700px; margin: auto; }
+
+    /* Skills */
+    .skills-list {
+      display: flex; flex-wrap: wrap; gap: 10px; margin-top: 1rem;
+    }
+    .skills-list span {
+      background: #0078d7; color: white;
+      padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;
+    }
+    
+
+    /* Projects */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+    .project {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .project:hover { transform: translateY(-5px); }
+    .project a { color: #0056a3; text-decoration: none; font-weight: 600; }
+    .project a:hover { text-decoration: underline; }
+
+    /* Contact */
+    .contact a {
+      color: #0078d7;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .contact a:hover { text-decoration: underline; }
+
+    footer {
+      background: #0078d7;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: 2rem;
+    }
+
+    @media(max-width:768px){
+      section{ padding: 2rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mote Venu</h1>
+    <p>Software Developer | Java • Python • Django • Web Development</p>
+    <p>📧 <a href="mailto:motevenu8@gmail.com" style="color:white;">motevenu8@gmail.com</a> | 📞 +91 9398960491 | 
+      <a href="https://www.linkedin.com/in/mote-venu-b13a65253/" style="color:white;">LinkedIn</a>
+    </p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#internships">Internships</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="about">
+    <img src="https://via.placeholder.com/150" alt="Profile Photo">
+    <p>
+      Motivated Computer Science Engineering student at <strong>CMR Institute of Technology, Hyderabad</strong>,
+      with expertise in Java, Python, and web technologies. Passionate about solving problems,
+      learning emerging tools, and contributing to impactful software projects.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="skills-list">
+      <span>Java</span>
+      <span>Python</span>
+      <span>C</span>
+      <span>SQL</span>
+      <span>Django</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>MySQL</span>
+      <span>MongoDB</span>
+      <span>GitHub</span>
+      <span>OOP</span>
+      <span>SDLC (Agile)</span>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project">
+        <h3><a href="https://venumote.github.io/portfolio/" target="_blank">Portfolio Website</a></h3>
+        <p>Personal portfolio showcasing academic achievements, projects, and technical skills.</p>
+      </div>
+      <div class="project">
+        <h3><a href="https://github.com/VENUmote/Django_text_untilities" target="_blank">Text Utilities</a></h3>
+        <p>Full-stack text processing app using Django that performs text transformations like case conversion, punctuation removal, and word/character counts.</p>
+      </div>
+      <div class="project">
+        <h3><a href="https://github.com/VENUmote/Bill_Generator" target="_blank">Bill Generator</a></h3>
+        <p>Calculates total amounts, taxes, and discounts with responsive design and clean UI.</p>
+      </div>
+      <div class="project">
+        <h3><a href="https://github.com/VENUmote/CURD-Operations" target="_blank">CRUD Operations</a></h3>
+        <p>Implements Create, Read, Update, Delete operations on databases, demonstrating backend data management.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="internships">
+    <h2>Internships</h2>
+    <ul>
+      <li><strong>Python Internship</strong> — Jan–Jul 2022: Gained hands-on experience in software development methodologies and best practices.</li>
+      <li><strong>Java Internship</strong> — Aug–Oct 2023: Worked on backend development and problem-solving in real-world scenarios.</li>
+    </ul>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications & Achievements</h2>
+    <ul>
+      <li>Python for Data Science — Cognitive Class</li>
+      <li>SQL and Relational Databases — Cognitive Class</li>
+      <li>Data Analysis for Python — Cognitive Class</li>
+      <li>C Language — Certified Course</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>📧 <a href="mailto:motevenu8@gmail.com">motevenu8@gmail.com</a></p>
+    <p>🔗 <a href="https://www.linkedin.com/in/mote-venu-b13a65253/">LinkedIn</a> | 
+        <a href="https://leetcode.com/u/22r05a0518/">LeetCode</a> | 
+        <a href="https://www.hackerrank.com/profile/22r05a0518">HackerRank</a> | 
+        <a href="https://www.codechef.com/users/motevenu8">CodeChef</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>© 2025 Mote Venu | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
